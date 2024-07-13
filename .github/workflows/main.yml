@@ -35,3 +35,5 @@ jobs:
           cml-publish feature_importance.png --md >> report.md
           
           cml-send-comment report.md
+env:
+        TOKEN_PRUEBA: ${{ secrets.TOKEN PRUEBA }}
