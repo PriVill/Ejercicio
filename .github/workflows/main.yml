@@ -1,4 +1,5 @@
-name: CI and CD data model
+env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN_DE_PRUEBA }}name: CI and CD data model
 
 on:
   push:
@@ -36,4 +37,4 @@ jobs:
           
           cml-send-comment report.md
 env:
-        TOKEN_PRUEBA: ${{ secrets.TOKEN_PRUEBA }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN_DE_PRUEBA }}
