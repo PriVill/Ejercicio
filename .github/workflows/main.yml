@@ -36,4 +36,4 @@ jobs:
           
           cml-send-comment report.md
 env:
-        TOKEN_PRUEBA: ${{ secrets.TOKEN PRUEBA }}
+        TOKEN_PRUEBA: ${{ secrets.TOKEN_PRUEBA }}
