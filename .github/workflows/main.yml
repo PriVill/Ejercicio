@@ -1,5 +1,5 @@
-env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN_DE_PRUEBA }}name: CI and CD data model
+name: CI and CD data model
+
 
 on:
   push:
